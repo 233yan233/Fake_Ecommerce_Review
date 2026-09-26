@@ -1,0 +1,3 @@
+train_product_id,train_product,test_product_id,test_product,train_rows,test_rows,accuracy,macro_f1,permutation_mean_macro_f1,permutation_p_value
+baseus_bowie_ma10,Baseus Bowie MA10,kospet_tank_t3_ultra,KOSPET TANK T3 Ultra,200,70,0.8285714285714286,0.8273026315789473,0.49957213828746183,0.001996007984031936
+kospet_tank_t3_ultra,KOSPET TANK T3 Ultra,baseus_bowie_ma10,Baseus Bowie MA10,70,200,0.795,0.794377993430126,0.4911286817551586,0.001996007984031936

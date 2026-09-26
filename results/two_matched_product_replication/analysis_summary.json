@@ -1,0 +1,68 @@
+{
+  "design": "Two exact-product Amazon-AliExpress comparisons with product, rating, language and within-product sample size controlled.",
+  "total_rows": 270,
+  "within_product_classification": [
+    {
+      "matched_product_id": "baseus_bowie_ma10",
+      "product": "Baseus Bowie MA10",
+      "rows": 200,
+      "sample_per_platform": 100,
+      "accuracy": 0.935,
+      "macro_f1": 0.9349853717086345,
+      "permutation_observed_macro_f1": 0.9347196648737086,
+      "permutation_mean_macro_f1": 0.495647261664208,
+      "permutation_p_value": 0.001996007984031936,
+      "first15_accuracy": 0.865,
+      "first15_macro_f1": 0.8648344221671547,
+      "first15_permutation_observed_macro_f1": 0.8641162931585955,
+      "first15_permutation_mean_macro_f1": 0.49691967875985277,
+      "first15_permutation_p_value": 0.001996007984031936
+    },
+    {
+      "matched_product_id": "kospet_tank_t3_ultra",
+      "product": "KOSPET TANK T3 Ultra",
+      "rows": 70,
+      "sample_per_platform": 35,
+      "accuracy": 0.7285714285714285,
+      "macro_f1": 0.7285160236783017,
+      "permutation_observed_macro_f1": 0.7267216117216118,
+      "permutation_mean_macro_f1": 0.4932026391788466,
+      "permutation_p_value": 0.001996007984031936,
+      "first15_accuracy": 0.6428571428571429,
+      "first15_macro_f1": 0.633814605566018,
+      "first15_permutation_observed_macro_f1": 0.6192022631651114,
+      "first15_permutation_mean_macro_f1": 0.48458970803534274,
+      "first15_permutation_p_value": 0.03792415169660679
+    }
+  ],
+  "cross_product_transfer": [
+    {
+      "train_product_id": "baseus_bowie_ma10",
+      "train_product": "Baseus Bowie MA10",
+      "test_product_id": "kospet_tank_t3_ultra",
+      "test_product": "KOSPET TANK T3 Ultra",
+      "train_rows": 200,
+      "test_rows": 70,
+      "accuracy": 0.8285714285714286,
+      "macro_f1": 0.8273026315789473,
+      "permutation_mean_macro_f1": 0.49957213828746183,
+      "permutation_p_value": 0.001996007984031936
+    },
+    {
+      "train_product_id": "kospet_tank_t3_ultra",
+      "train_product": "KOSPET TANK T3 Ultra",
+      "test_product_id": "baseus_bowie_ma10",
+      "test_product": "Baseus Bowie MA10",
+      "train_rows": 70,
+      "test_rows": 200,
+      "accuracy": 0.795,
+      "macro_f1": 0.794377993430126,
+      "permutation_mean_macro_f1": 0.4911286817551586,
+      "permutation_p_value": 0.001996007984031936
+    }
+  ],
+  "kospet_fdr_significant_aspects": [
+    "display"
+  ],
+  "interpretation": "Platform-source language remains detectable for a second product and transfers across the two products. The evidence does not isolate national culture or estimate fraud prevalence."
+}

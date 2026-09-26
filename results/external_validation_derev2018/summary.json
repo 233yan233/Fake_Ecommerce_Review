@@ -1,0 +1,80 @@
+{
+  "external_dataset": "DeRev 2018",
+  "purpose": "External and source-transfer validation; not additional tuning of the main model.",
+  "published_rows": 1552,
+  "crowdsourced_rows": 1552,
+  "headline_metrics": [
+    {
+      "experiment": "main_text_model_zero_shot",
+      "dataset": "published",
+      "rows": 1552,
+      "accuracy": 0.5006443298969072,
+      "precision_fake": 0.5094339622641509,
+      "recall_fake": 0.03479381443298969,
+      "f1_fake": 0.06513872135102533
+    },
+    {
+      "experiment": "main_hybrid_model_zero_shot",
+      "dataset": "published",
+      "rows": 1552,
+      "accuracy": 0.5025773195876289,
+      "precision_fake": 0.5384615384615384,
+      "recall_fake": 0.03608247422680412,
+      "f1_fake": 0.06763285024154589
+    },
+    {
+      "experiment": "derev_text_model_in_domain_oof",
+      "dataset": "published",
+      "rows": 1552,
+      "accuracy": 0.958118556701031,
+      "precision_fake": 0.9771812080536912,
+      "recall_fake": 0.9381443298969072,
+      "f1_fake": 0.9572649572649573
+    },
+    {
+      "experiment": "main_text_model_zero_shot",
+      "dataset": "crowdsourced",
+      "rows": 1552,
+      "accuracy": 0.4954896907216495,
+      "precision_fake": 0.37037037037037035,
+      "recall_fake": 0.01288659793814433,
+      "f1_fake": 0.024906600249066
+    },
+    {
+      "experiment": "main_hybrid_model_zero_shot",
+      "dataset": "crowdsourced",
+      "rows": 1552,
+      "accuracy": 0.4993556701030928,
+      "precision_fake": 0.4883720930232558,
+      "recall_fake": 0.027061855670103094,
+      "f1_fake": 0.05128205128205128
+    },
+    {
+      "experiment": "derev_text_model_in_domain_oof",
+      "dataset": "crowdsourced",
+      "rows": 1552,
+      "accuracy": 0.9220360824742269,
+      "precision_fake": 0.9258777633289987,
+      "recall_fake": 0.9175257731958762,
+      "f1_fake": 0.9216828478964402
+    },
+    {
+      "experiment": "derev_text_model_published_to_crowdsourced",
+      "dataset": "crowdsourced",
+      "rows": 1552,
+      "accuracy": 0.8859536082474226,
+      "precision_fake": 0.951734539969834,
+      "recall_fake": 0.8131443298969072,
+      "f1_fake": 0.876997915218902
+    },
+    {
+      "experiment": "derev_text_model_crowdsourced_to_published",
+      "dataset": "published",
+      "rows": 1552,
+      "accuracy": 0.9439432989690721,
+      "precision_fake": 0.9366286438529785,
+      "recall_fake": 0.9523195876288659,
+      "f1_fake": 0.9444089456869009
+    }
+  ]
+}

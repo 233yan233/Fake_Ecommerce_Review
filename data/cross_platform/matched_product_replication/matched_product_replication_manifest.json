@@ -1,0 +1,71 @@
+{
+  "created_on": "2026-08-03",
+  "matched_product": {
+    "matched_product_id": "kospet_tank_t3_ultra",
+    "brand": "KOSPET",
+    "model": "TANK T3 Ultra",
+    "match_rule": "Exact brand and model; the Amazon comparison uses the black variant.",
+    "shared_specifications": [
+      "1.43-inch AMOLED display",
+      "470 mAh battery",
+      "built-in GPS, altitude and compass functions",
+      "5 ATM water resistance",
+      "stainless-steel body"
+    ],
+    "amazon": {
+      "asin": "B0CQXB54JC",
+      "product_url": "https://www.amazon.com/dp/B0CQXB54JC",
+      "indexed_evidence_url": "https://device.report/kospet/t3-ultra-black",
+      "observed_title": "KOSPET TANK T3 Ultra Smart Watch, black"
+    },
+    "aliexpress": {
+      "item_id": "1005006851800028",
+      "product_url": "https://www.aliexpress.com/item/1005006851800028.html",
+      "indexed_evidence_url": "https://www.pricearchive.org/aliexpress.com/item/1005006851800028",
+      "observed_title": "KOSPET TANK T3 Ultra GPS smartwatch"
+    }
+  },
+  "sampling": {
+    "design": "Same product, English language, five-star rating and equal sample size.",
+    "sample_size_per_platform": 35,
+    "reason_for_sample_size": "Thirty-five is the largest round sample supported by the 38 unique English five-star Amazon texts available at collection time.",
+    "amazon_selection": {
+      "source_pool_counts": {
+        "top": 44
+      },
+      "non_english_rejected": 5,
+      "selection_order": "top-ranked pool followed by recent-review pool"
+    },
+    "aliexpress_selection": "Random-state-42 sample from 143 eligible records.",
+    "date_ranges": {
+      "AliExpress": {
+        "earliest": "2024-09-07",
+        "latest": "2025-02-24"
+      },
+      "Amazon": {
+        "earliest": "2024-07-12",
+        "latest": "2025-12-19"
+      }
+    }
+  },
+  "sources": {
+    "amazon_reviews": "https://www.woot.com/review/Reviews/B0CQXB54JC",
+    "aliexpress_reviews": "https://raw.githubusercontent.com/george07-t/AliExpress-Product-Review-Reply-Management-System/main/1.%20Dataset%20Collection/Product%20Review%20Of%20AliExpress.csv",
+    "amazon_product_evidence": "https://device.report/kospet/t3-ultra-black",
+    "aliexpress_product_evidence": "https://www.pricearchive.org/aliexpress.com/item/1005006851800028"
+  },
+  "privacy": "Reviewer names, profile identifiers and media URLs are not stored. Country is retained only as a coarse marketplace-composition variable.",
+  "limitations": [
+    "The replication sample is smaller than the Bowie MA10 sample.",
+    "The platforms use different review retrieval and ranking mechanisms.",
+    "The review date ranges are not identical.",
+    "AliExpress English reviews may contain machine-translated text.",
+    "The comparison is a platform-market case study, not a direct test of national culture."
+  ],
+  "rows": 70,
+  "platform_counts": {
+    "AliExpress": 35,
+    "Amazon": 35
+  },
+  "corpus_sha256": "b862599b0b8ea1f1f216b77db13c2de11686bc58a68d339bd4d0c1a6ab2082ac"
+}

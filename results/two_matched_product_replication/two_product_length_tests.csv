@@ -1,0 +1,3 @@
+matched_product_id,product,amazon_median_words,aliexpress_median_words,mann_whitney_u,p_value,rank_biserial_amazon_minus_aliexpress,fdr_adjusted_p
+baseus_bowie_ma10,Baseus Bowie MA10,83.0,15.0,8789.0,2.0840366663777804e-20,0.7578,4.168073332755561e-20
+kospet_tank_t3_ultra,KOSPET TANK T3 Ultra,48.0,15.0,956.5,5.430865233881865e-05,0.5616326530612246,5.430865233881865e-05

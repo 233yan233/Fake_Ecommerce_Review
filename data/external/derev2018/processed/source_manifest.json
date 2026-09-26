@@ -1,0 +1,22 @@
+{
+  "dataset": "DeRev 2018",
+  "source_url": "https://fornaciari.netlify.app/media/DeRev2018.zip",
+  "access_date": "2026-07-13",
+  "archive_sha256": "c04bdd9cf48ab58029f7875732c70332ab70f32a993a772262d3b8d8fd024392",
+  "published_rows": 1552,
+  "crowdsourced_rows": 1552,
+  "published_label_counts": {
+    "fake": 776,
+    "real": 776
+  },
+  "crowdsourced_label_counts": {
+    "real": 776,
+    "fake": 776
+  },
+  "label_mapping": {
+    "0": "fake",
+    "1": "real"
+  },
+  "privacy": "Reviewer names are not exported to the processed files.",
+  "citation": "Fornaciari, T. et al. (2020), Fake opinion detection: how similar are crowdsourced datasets to real data?, Language Resources and Evaluation."
+}

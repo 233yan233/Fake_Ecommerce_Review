@@ -1,0 +1,2 @@
+rows,folds,accuracy,macro_f1,permutation_observed_macro_f1,permutation_mean_macro_f1,permutation_p_value,fifteen_word_accuracy,fifteen_word_macro_f1,fifteen_word_permutation_observed_macro_f1,fifteen_word_permutation_mean_macro_f1,fifteen_word_permutation_p_value,features,sensitivity_test
+200,5,0.935,0.9349853717086345,0.9347196648737086,0.495647261664208,0.001996007984031936,0.865,0.8648344221671547,0.8641162931585955,0.49691967875985277,0.001996007984031936,review text only,first 15 whitespace-delimited words per review

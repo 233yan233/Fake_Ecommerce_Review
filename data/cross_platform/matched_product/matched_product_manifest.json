@@ -1,0 +1,68 @@
+{
+  "created_on": "2026-07-13",
+  "matched_product": {
+    "matched_product_id": "baseus_bowie_ma10",
+    "brand": "Baseus",
+    "model": "Bowie MA10",
+    "match_rule": "Exact brand and model, supported by overlapping product specifications.",
+    "shared_specifications": [
+      "up to 140 hours total playtime",
+      "up to -48 dB active noise cancellation",
+      "Bluetooth 5.3",
+      "IPX6 water resistance"
+    ],
+    "amazon": {
+      "asin": "B0C89QQ5XK",
+      "product_url": "https://www.amazon.com/dp/B0C89QQ5XK",
+      "observed_title": "Baseus Active Noise Cancelling Wireless Earbuds ... Bowie MA10"
+    },
+    "aliexpress": {
+      "item_id": "1005005742938199",
+      "product_url": "https://www.aliexpress.com/item/1005005742938199.html",
+      "indexed_evidence_url": "https://www.pelando.com.br/d/baseus-bowie-ma10-anc-fone-de-ouvido-sem-fio-imperme-vel-sport-earbud-48db-cancelamento-de-ru-do-140h-playtime-bluetooth-5-3-ipx6-f457",
+      "observed_title": "Baseus Bowie MA10 ANC wireless earbuds, 48 dB, 140h, Bluetooth 5.3, IPX6"
+    }
+  },
+  "sampling": {
+    "design": "Same product, English language, five-star rating and equal sample size.",
+    "sample_size_per_platform": 100,
+    "amazon_selection": {
+      "source_pool_counts": {
+        "top": 100,
+        "recent": 100
+      },
+      "non_english_rejected": 25,
+      "selection_order": "top-ranked pool followed by recent-review pool"
+    },
+    "aliexpress_selection": "Random-state-42 sample from 117 eligible records.",
+    "date_ranges": {
+      "AliExpress": {
+        "earliest": "2024-09-06",
+        "latest": "2025-02-02"
+      },
+      "Amazon": {
+        "earliest": "2023-11-03",
+        "latest": "2026-06-19"
+      }
+    }
+  },
+  "sources": {
+    "amazon_reviews": "https://www.woot.com/review/Reviews/B0C89QQ5XK",
+    "aliexpress_reviews": "https://raw.githubusercontent.com/george07-t/AliExpress-Product-Review-Reply-Management-System/main/1.%20Dataset%20Collection/Product%20Review%20Of%20AliExpress.csv",
+    "amazon_collection_reference": "https://github.com/mrlong0129/amazon-review-scraper (MIT; endpoint and pagination behaviour independently reimplemented here)",
+    "aliexpress_collection_documentation": "https://github.com/george07-t/AliExpress-Product-Review-Reply-Management-System"
+  },
+  "privacy": "Reviewer names, profile identifiers and media URLs are not stored. Country is retained only as a coarse marketplace-composition variable.",
+  "limitations": [
+    "The platforms use different review retrieval and ranking mechanisms.",
+    "The review date ranges are not identical.",
+    "AliExpress English reviews come from multiple countries and may include translations.",
+    "The comparison is a platform-market case study, not a direct test of national culture."
+  ],
+  "rows": 200,
+  "platform_counts": {
+    "AliExpress": 100,
+    "Amazon": 100
+  },
+  "corpus_sha256": "b8cfa035f4b6b7155101704179d068c21d67e7fea2796bd31cff63c16a4e6595"
+}

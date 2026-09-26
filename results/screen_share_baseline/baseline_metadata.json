@@ -1,0 +1,9 @@
+{
+  "best_model": "linear_svm",
+  "train_rows": 32328,
+  "test_rows": 8082,
+  "label_mapping": {
+    "real": 0,
+    "fake": 1
+  }
+}

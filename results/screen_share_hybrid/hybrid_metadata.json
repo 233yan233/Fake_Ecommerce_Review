@@ -1,0 +1,27 @@
+{
+  "best_model": "full_hybrid_linear_svm",
+  "train_rows": 32328,
+  "test_rows": 8082,
+  "feature_sets": [
+    "text_only",
+    "text_stats",
+    "full_hybrid"
+  ],
+  "numeric_features": [
+    "rating",
+    "char_length",
+    "word_count",
+    "exclamation_count",
+    "question_count",
+    "digit_count",
+    "uppercase_ratio",
+    "positive_word_count",
+    "negative_word_count",
+    "sentiment_score",
+    "sentiment_rating_mismatch",
+    "extreme_rating"
+  ],
+  "categorical_features": [
+    "category"
+  ]
+}
